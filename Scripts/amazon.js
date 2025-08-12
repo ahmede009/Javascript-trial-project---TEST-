@@ -1,3 +1,5 @@
+import { cart } from "../data/cart.js";
+
 let productHTML = "";
 
 products.forEach((product) => {
@@ -102,4 +104,6 @@ function addToCart(button) {
   setTimeout(() => {
     document.querySelector(`.js-addTocartClicked-${productId}`).innerHTML = "";
   }, 2000);
+
+  document.querySelector(``);
 }
